@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int number = 39;
+    int number ;
+    printf("Enter the number ");
+    scanf("%d ",&number);
 
     
     // True if the number is perfectly divisible by 2
